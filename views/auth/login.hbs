@@ -1,0 +1,20 @@
+{{#> main}}
+  {{#*inline "content"}}
+    <main>
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Senha" required>
+            </div>
+            <div><a href="/forgot-password">Esqueci minha senha</a></div>
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+    <script src="/scripts/login.js"></script>
+  {{/inline}}
+{{/main}}

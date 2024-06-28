@@ -1,0 +1,12 @@
+{{#> main}}
+  {{#*inline "content"}}
+    <main>
+        <h1>Home</h1>
+        <ul>
+            {{#each users}}
+            <li>{{this.name}} - {{this.email}}</li>
+            {{/each}}
+        </ul>
+    </main>
+  {{/inline}}
+{{/main}}
